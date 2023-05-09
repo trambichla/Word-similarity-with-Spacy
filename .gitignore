@@ -70,5 +70,57 @@ print("")
 
 print(word11.similarity(word12))
 
+#0.5929930274321619
+#0.22358825939615987
+#0.40415016164997786
 
+#0.5732771193447899
+#0.5276059699912995
+#0.6447934680615833
+#0.5075518250049631
+#0.5400429620189771
+#0.5613003570394096
+#0.7541026632658807
+#0.7051569951042885
+
+#0.9039768527040919
+#0.7267932959335908
+#0.7702318457427496
+#0.7374339746212665
+#0.5503226551499436
+#0.7411820046618716
+#0.565683594063697
+
+#0.7720833384347602
+#0.8040645066224543
+#0.6254221748298179
+#0.5809429595746866
+#0.5954256428132094
+#0.6195865065998032
+
+#0.6314401572133026
+#0.5082929758853124
+#0.49039530095834283
+#0.5790566168996106
+#0.5861909339431634
+
+#0.8441862475790584
+#0.7664599870672585
+#0.6496067680993277
+#0.6552382526982771
+
+#0.6567556525088942
+#0.7520226982839208
+#0.5602889179971566
+
+#0.7084986307211723
+#0.8427972747459015
+
+#0.8030351810681345
+
+#This code use the SpaCy library to calculate the similarity between pairs of words based on their pre-trained word vectors.
 #cat-banana : 0.22 vs monkey-banana 0.40 => monkey and banana are more relative than cat and banana, such as monkey like to eat banana than cat
+#We can see that "father" and "mother" reach the hightest score at 0.903 which shows that they are the most closely related to each other than other members in the family tree. 
+#"granddad" is most similar to "father", followed by "uncle", "daughter", "mother", "son", "niece", and "aunt". This makes sense as all of these words are related to family members, and "granddad" is most closely related to "father" in the family tree.
+
+
